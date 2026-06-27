@@ -1,0 +1,22 @@
+{
+  "name": "pptx-tools-core",
+  "version": "0.1.5",
+  "description": "Host-agnostic engine for pptx-sync: pptx parsing, search, sync planner/executor, event-schedule model, and view-string builders. Consumed by the PWA (pptx-distro-kit) via the @core path alias.",
+  "license": "MIT",
+  "private": true,
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json && tsc -p test/tsconfig.json"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "jsonc-parser": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}

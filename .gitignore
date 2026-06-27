@@ -1,1 +1,9 @@
+node_modules/
+dist/
 .DS_Store
+*.tsbuildinfo
+
+# Binary test fixtures (~44MB of sample decks). Kept locally for the parse /
+# title-slide tests; not tracked — too heavy for the repo and a content-licensing
+# concern if this repo goes public. Provide them locally to run those 2 suites.
+samples/
