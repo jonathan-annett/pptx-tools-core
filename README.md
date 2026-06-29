@@ -13,8 +13,8 @@ Consumed by:
   line is now single-package and no longer depends on this.
 
 Promoted out of `pptx-viewer-ext/packages/core` (2026-06-27) so the shared engine
-has one canonical home that can advance independently of either host. **Private**
-for now; structured to go public later.
+has one canonical home that can advance independently of either host. **Public** —
+host-agnostic, no secrets; binary `samples/` fixtures are gitignored.
 
 ## Layout
 - `src/` — the engine (sync/, search/, event/, pptx/pdf parsers, view builders).
